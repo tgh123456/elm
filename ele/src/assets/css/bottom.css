@@ -1,0 +1,76 @@
+.foot{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 4.75rem;
+	background: #141d27;
+}
+.yuan{
+	position: absolute;
+	width: 5.25rem;
+	height: 5.25rem;
+	background: #141d27;
+	border-radius: 50%;
+	bottom: 0.8rem;
+	left: 1rem;
+}
+.pan{
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+	width: 4rem;
+	height: 4rem;
+	background: #2D373F;
+	border-radius: 50%;
+	
+}
+.pan>span{
+	font-size: 2.1rem;
+	display: inline-block;
+	margin-top: 0.2rem;
+	color: #7F8489;
+}
+.ps{
+	position: absolute;
+	top: 0.75rem;
+	left: 7rem;
+	width: 13.8rem;
+	height: 2.85rem;
+}
+.jiage{
+	position: relative;
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: rgba(255,255,255,0.4);
+	float: left;
+}
+.psf{
+	float: right;
+	margin-top: 0.5rem;
+	font-size: 1.2rem;
+	color: rgba(255,255,255,0.4);
+}
+#zf{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 10.5rem;
+	height: 97%;
+	font-size: 1.2rem;
+	line-height: 4.75rem;
+	font-weight: 700;
+	color: rgba(255,255,255,0.4);
+	background: #2D363E;
+}
+
+.shuzi{
+	z-index: 1000;
+	position: fixed;
+	left: 4rem;
+	bottom: 5rem;
+	width: 2.7rem;
+	height: 1.45rem;
+	border-radius: 1rem;
+	background: red;
+	color: white;
+}

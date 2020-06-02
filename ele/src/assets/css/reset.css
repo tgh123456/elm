@@ -1,0 +1,609 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { 
+  /*清除浏览器默认样式*/
+  margin:0; 
+  padding:0; 
+  outline: 0;
+}
+
+*{
+	margin: 0 auto;
+}
+html {
+  font-size:10px;
+  height: 100%; 
+}
+body {
+  background-color: #fff;
+  font-family: Helvetica,"Microsoft Yahei",-apple-system,Arial,sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+@media screen and (min-width : 320px) {
+    html {
+        font-size : 10px !important;
+    }
+}
+@media screen and (min-width : 323.2px) {
+    html {
+        font-size : 10.1px !important;
+    }
+}
+@media screen and (min-width : 326.4px) {
+    html {
+        font-size : 10.2px !important;
+    }
+}
+@media screen and (min-width : 329.6px) {
+    html {
+        font-size : 10.3px !important;
+    }
+}
+@media screen and (min-width : 332.8px) {
+    html {
+        font-size : 10.4px !important;
+    }
+}
+@media screen and (min-width : 336px) {
+    html {
+        font-size : 10.5px !important;
+    }
+}
+@media screen and (min-width : 339.2px) {
+    html {
+        font-size : 10.6px !important;
+    }
+}
+@media screen and (min-width : 342.4px) {
+    html {
+        font-size : 10.7px !important;
+    }
+}
+@media screen and (min-width : 345.6px) {
+    html {
+        font-size : 10.8px !important;
+    }
+}
+@media screen and (min-width : 348.8px) {
+    html {
+        font-size : 10.9px !important;
+    }
+}
+@media screen and (min-width : 352px) {
+    html {
+        font-size : 11px !important;
+    }
+}
+@media screen and (min-width : 355.2px) {
+    html {
+        font-size : 11.1px !important;
+    }
+}
+@media screen and (min-width : 358.4px) {
+    html {
+        font-size : 11.2px !important;
+    }
+}
+@media screen and (min-width : 361.6px) {
+    html {
+        font-size : 11.3px !important;
+    }
+}
+@media screen and (min-width : 364.8px) {
+    html {
+        font-size : 11.4px !important;
+    }
+}
+@media screen and (min-width : 368px) {
+    html {
+        font-size : 11.5px !important;
+    }
+}
+@media screen and (min-width : 371.2px) {
+    html {
+        font-size : 11.6px !important;
+    }
+}
+@media screen and (min-width : 374.4px) {
+    html {
+        font-size : 11.7px !important;
+    }
+}
+@media screen and (min-width : 377.6px) {
+    html {
+        font-size : 11.8px !important;
+    }
+}
+@media screen and (min-width : 380.8px) {
+    html {
+        font-size : 11.9px !important;
+    }
+}
+@media screen and (min-width : 384px) {
+    html {
+        font-size : 12px !important;
+    }
+}
+@media screen and (min-width : 387.2px) {
+    html {
+        font-size : 12.1px !important;
+    }
+}
+@media screen and (min-width : 390.4px) {
+    html {
+        font-size : 12.2px !important;
+    }
+}
+@media screen and (min-width : 393.6px) {
+    html {
+        font-size : 12.3px !important;
+    }
+}
+@media screen and (min-width : 396.8px) {
+    html {
+        font-size : 12.4px !important;
+    }
+}
+@media screen and (min-width : 400px) {
+    html {
+        font-size : 12.5px !important;
+    }
+}
+@media screen and (min-width : 403.2px) {
+    html {
+        font-size : 12.6px !important;
+    }
+}
+@media screen and (min-width : 406.4px) {
+    html {
+        font-size : 12.7px !important;
+    }
+}
+@media screen and (min-width : 409.6px) {
+    html {
+        font-size : 12.8px !important;
+    }
+}
+@media screen and (min-width : 412.8px) {
+    html {
+        font-size : 12.9px !important;
+    }
+}
+@media screen and (min-width : 416px) {
+    html {
+        font-size : 13px !important;
+    }
+}
+@media screen and (min-width : 419.2px) {
+    html {
+        font-size : 13.1px !important;
+    }
+}
+@media screen and (min-width : 422.4px) {
+    html {
+        font-size : 13.2px !important;
+    }
+}
+@media screen and (min-width : 425.6px) {
+    html {
+        font-size : 13.3px !important;
+    }
+}
+@media screen and (min-width : 428.8px) {
+    html {
+        font-size : 13.4px !important;
+    }
+}
+@media screen and (min-width : 432px) {
+    html {
+        font-size : 13.5px !important;
+    }
+}
+@media screen and (min-width : 435.2px) {
+    html {
+        font-size : 13.6px !important;
+    }
+}
+@media screen and (min-width : 438.4px) {
+    html {
+        font-size : 13.7px !important;
+    }
+}
+@media screen and (min-width : 441.6px) {
+    html {
+        font-size : 13.8px !important;
+    }
+}
+@media screen and (min-width : 444.8px) {
+    html {
+        font-size : 13.9px !important;
+    }
+}
+@media screen and (min-width : 448px) {
+    html {
+        font-size : 14px !important;
+    }
+}
+@media screen and (min-width : 451.2px) {
+    html {
+        font-size : 14.1px !important;
+    }
+}
+@media screen and (min-width : 454.4px) {
+    html {
+        font-size : 14.2px !important;
+    }
+}
+@media screen and (min-width : 457.6px) {
+    html {
+        font-size : 14.3px !important;
+    }
+}
+@media screen and (min-width : 460.8px) {
+    html {
+        font-size : 14.4px !important;
+    }
+}
+@media screen and (min-width : 464px) {
+    html {
+        font-size : 14.5px !important;
+    }
+}
+@media screen and (min-width : 467.2px) {
+    html {
+        font-size : 14.6px !important;
+    }
+}
+@media screen and (min-width : 470.4px) {
+    html {
+        font-size : 14.7px !important;
+    }
+}
+@media screen and (min-width : 473.6px) {
+    html {
+        font-size : 14.8px !important;
+    }
+}
+@media screen and (min-width : 476.8px) {
+    html {
+        font-size : 14.9px !important;
+    }
+}
+@media screen and (min-width : 480px) {
+    html {
+        font-size : 15px !important;
+    }
+}
+@media screen and (min-width : 483.2px) {
+    html {
+        font-size : 15.1px !important;
+    }
+}
+@media screen and (min-width : 486.4px) {
+    html {
+        font-size : 15.2px !important;
+    }
+}
+@media screen and (min-width : 489.6px) {
+    html {
+        font-size : 15.3px !important;
+    }
+}
+@media screen and (min-width : 492.8px) {
+    html {
+        font-size : 15.4px !important;
+    }
+}
+@media screen and (min-width : 496px) {
+    html {
+        font-size : 15.5px !important;
+    }
+}
+@media screen and (min-width : 499.2px) {
+    html {
+        font-size : 15.6px !important;
+    }
+}
+@media screen and (min-width : 502.4px) {
+    html {
+        font-size : 15.7px !important;
+    }
+}
+@media screen and (min-width : 505.6px) {
+    html {
+        font-size : 15.8px !important;
+    }
+}
+@media screen and (min-width : 508.8px) {
+    html {
+        font-size : 15.9px !important;
+    }
+}
+@media screen and (min-width : 512px) {
+    html {
+        font-size : 16px !important;
+    }
+}
+@media screen and (min-width : 515.2px) {
+    html {
+        font-size : 16.1px !important;
+    }
+}
+@media screen and (min-width : 518.4px) {
+    html {
+        font-size : 16.2px !important;
+    }
+}
+@media screen and (min-width : 521.6px) {
+    html {
+        font-size : 16.3px !important;
+    }
+}
+@media screen and (min-width : 524.8px) {
+    html {
+        font-size : 16.4px !important;
+    }
+}
+@media screen and (min-width : 528px) {
+    html {
+        font-size : 16.5px !important;
+    }
+}
+@media screen and (min-width : 531.2px) {
+    html {
+        font-size : 16.6px !important;
+    }
+}
+@media screen and (min-width : 534.4px) {
+    html {
+        font-size : 16.7px !important;
+    }
+}
+@media screen and (min-width : 537.6px) {
+    html {
+        font-size : 16.8px !important;
+    }
+}
+@media screen and (min-width : 540.8px) {
+    html {
+        font-size : 16.9px !important;
+    }
+}
+@media screen and (min-width : 544px) {
+    html {
+        font-size : 17px !important;
+    }
+}
+@media screen and (min-width : 547.2px) {
+    html {
+        font-size : 17.1px !important;
+    }
+}
+@media screen and (min-width : 550.4px) {
+    html {
+        font-size : 17.2px !important;
+    }
+}
+@media screen and (min-width : 553.6px) {
+    html {
+        font-size : 17.3px !important;
+    }
+}
+@media screen and (min-width : 556.8px) {
+    html {
+        font-size : 17.4px !important;
+    }
+}
+@media screen and (min-width : 560px) {
+    html {
+        font-size : 17.5px !important;
+    }
+}
+@media screen and (min-width : 563.2px) {
+    html {
+        font-size : 17.6px !important;
+    }
+}
+@media screen and (min-width : 566.4px) {
+    html {
+        font-size : 17.7px !important;
+    }
+}
+@media screen and (min-width : 569.6px) {
+    html {
+        font-size : 17.8px !important;
+    }
+}
+@media screen and (min-width : 572.8px) {
+    html {
+        font-size : 17.9px !important;
+    }
+}
+@media screen and (min-width : 576px) {
+    html {
+        font-size : 18px !important;
+    }
+}
+@media screen and (min-width : 579.2px) {
+    html {
+        font-size : 18.1px !important;
+    }
+}
+@media screen and (min-width : 582.4px) {
+    html {
+        font-size : 18.2px !important;
+    }
+}
+@media screen and (min-width : 585.6px) {
+    html {
+        font-size : 18.3px !important;
+    }
+}
+@media screen and (min-width : 588.8px) {
+    html {
+        font-size : 18.4px !important;
+    }
+}
+@media screen and (min-width : 592px) {
+    html {
+        font-size : 18.5px !important;
+    }
+}
+@media screen and (min-width : 595.2px) {
+    html {
+        font-size : 18.6px !important;
+    }
+}
+@media screen and (min-width : 598.4px) {
+    html {
+        font-size : 18.7px !important;
+    }
+}
+@media screen and (min-width : 601.6px) {
+    html {
+        font-size : 18.8px !important;
+    }
+}
+@media screen and (min-width : 604.8px) {
+    html {
+        font-size : 18.9px !important;
+    }
+}
+@media screen and (min-width : 608px) {
+    html {
+        font-size : 19px !important;
+    }
+}
+@media screen and (min-width : 611.2px) {
+    html {
+        font-size : 19.1px !important;
+    }
+}
+@media screen and (min-width : 614.4px) {
+    html {
+        font-size : 19.2px !important;
+    }
+}
+@media screen and (min-width : 617.6px) {
+    html {
+        font-size : 19.3px !important;
+    }
+}
+@media screen and (min-width : 620.8px) {
+    html {
+        font-size : 19.4px !important;
+    }
+}
+@media screen and (min-width : 624px) {
+    html {
+        font-size : 19.5px !important;
+    }
+}
+@media screen and (min-width : 627.2px) {
+    html {
+        font-size : 19.6px !important;
+    }
+}
+@media screen and (min-width : 630.4px) {
+    html {
+        font-size : 19.7px !important;
+    }
+}
+@media screen and (min-width : 633.6px) {
+    html {
+        font-size : 19.8px !important;
+    }
+}
+@media screen and (min-width : 636.8px) {
+    html {
+        font-size : 19.9px !important;
+    }
+}
+@media screen and (min-width : 640px) {
+    html {
+        font-size : 20px !important;
+    }
+}
+input,button,select,textarea {
+  /*inherit继承父元素*/
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  outline:none;
+  border:0;
+}
+ol,ul,li{
+  /*不显示列表项的图标*/
+  list-style:none;
+}
+b,i,u{
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+}
+table{
+  /*设置表格的单边框*/
+  border-collapse:collapse;
+}
+a{
+  text-decoration:none; 
+  outline:none;
+}
+img{
+  /*图片的响应式*/
+  max-width:100%;
+  height:auto;
+}
+
+/*方便父元素撑开只包含多个浮动子元素的情况*/
+.clearfix:after{
+  content:"\0020"; 
+  height:0; 
+  display:block; 
+  clear:both; 
+  overflow:hidden
+}
+/*文本溢出时会出现...省略号*/
+.cutfont {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.fl   {float:left;}
+.fr   {float:right;}
+.posir{position:relative;}
+.tl   {text-align:left;}
+.tc   {text-align:center;}
+.tr   {text-align:right;}
+/*多行文本的两端对齐*/
+.tj   {text-align:justify;}
+/*单行文本的两端对齐*/
+.tjs  {text-align:justify;}
+.tjs:after  {
+    content:"";
+    display: inline-block;
+    width:100%;
+    height:0px;
+}
+.tc{text-align:center}
+.tl{text-align:left} 
+.tr{text-align:right}
+.fb{font-weight:bold}
+.cutFont{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.black  { color:#000}
+.blue   { color:#06c}
+.brown  { color:#666}
+.gray   { color:#999}
+.green  { color:#2d9b01}
+.orange { color:#f60}
+.yellow { color:#ff0; }
+.red    { color:#f23838}
+.white  { color:#fff}
+.bgBlack  { background-color:#000}
+.bgBlue   { background-color:#06c}
+.bgBrown  { background-color:#666}
+.bgGray   { background-color:#999}
+.bgGreen  { background-color:#2d9b01}
+.bgOrange { background-color:#f60}
+.bgYellow { background-color:#ff0; }
+.bgRed    { background-color:#f23838}
+.bgWhite  { background-color:#fff}

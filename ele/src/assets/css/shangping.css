@@ -1,0 +1,179 @@
+.sp{
+	width: 100%;
+	height: 35rem;
+	margin-top: 0.6rem;
+	display: flex;
+}
+.sider{
+	height: 100%;
+	width: 8rem;
+	background: #F3F5F7;
+	overflow: auto;
+}
+.sider>ul{
+	width: 100%;
+	height: 100%;
+}
+.sider>ul li{
+	position: relative;
+	width: 100%;
+	height: 5.4rem;
+	font-size: 1.2rem;
+}
+.sider>ul li>div{
+	width: 5.6rem;
+	margin-left: 0.5rem;
+	height: 100%;
+	border-bottom: 0.05rem solid rgba(7,17,27,0.1);
+}
+.sider>ul li>div span{
+	display: block;
+	padding-top: 1.5rem;
+}
+.wddiv{
+	height: 5rem;
+}
+.sider>ul a{
+	text-decoration: none;
+	color: #A5AAAF;
+}
+.zhuzhu{
+	overflow: auto;
+	width: 29.4rem;
+	height: 100%;
+}
+.zhuti{
+	width: 100%;
+	height: auto;
+}
+.zhu1{
+	margin-top: 0;
+	width: 100%;
+}
+.da{
+	height: 33.75rem;
+}
+.zhu1-top{
+	width: 100%;
+	height: 2.65rem;
+	background: #F3F5F7;
+	border-left: 0.15rem solid #d9dde1;
+}
+.zhu1-top>p{
+	color: #A5AAAF;
+	font-size: 1.4rem;
+	float: left;
+	line-height: 2.65rem;
+	margin-left: 1.8rem;
+	font-weight: 300;
+}
+.zhu1-center{
+	position: relative;
+	display: flex;
+	width: 22.5rem;
+	margin: 1.5rem auto;
+}
+.cai{
+	width: 5.9rem;
+	height: 5.7rem;
+}
+.cai>img{
+	width: 100%;
+	height: 100%;
+}
+.lr{
+	width: 12.6rem;
+	margin-left: 1rem;
+	font-size: 1rem;
+}
+
+.lr>div{
+	line-height: 2rem;
+	text-align: left;
+	color: rgba(147,153,159);
+}
+.nprice{
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: red!important;
+}
+.oprice{
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-decoration: line-through;
+}
+.img1{
+	position: absolute;
+	bottom: 0.5rem;
+	right: 0;
+	display: block;
+	width: 2.15rem;
+	height: 2.15rem;
+}
+.zhu2{
+	width: 100%;
+	height: 8rem;
+}
+.jian{
+	position: absolute;
+	bottom: 0.6rem;
+	right: 5rem;
+}
+.jian>span{
+	position: absolute;
+	right: -1.5rem;
+	top: 0.3rem;
+}
+.jian>img{
+	width: 2.15rem;
+	height: 2.15rem;
+}
+.gwc{
+	position: fixed;
+	bottom: 4rem;
+	width: 100%;
+}
+.gwc-tou{
+	width: 100%;
+	height: 3.9rem;
+	background: #F4F5F7;
+	line-height: 2rem;
+	border-bottom: 1px solid #DDDEE0;
+}
+.gw{
+	width: 92%;
+	height: 1.5rem;
+}
+.che{
+	font-size: 1.2rem;
+	float: left;
+}
+.kong{
+	float: right;
+	font-size: 1.2rem;
+	color: #30ABE5;
+}
+.gw>span{
+	margin-top: 1rem;
+}
+.xq{
+	background-color: white;
+	position:absolute;
+	z-index: 1000;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+}
+.ph{
+	width: 90%;
+	height: 4rem;
+	margin: 0.5rem auto;
+}
+.zp{
+	width: 90%;
+	height: 5rem;
+	margin: 1rem auto;
+}
